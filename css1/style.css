@@ -1,0 +1,440 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: poppins, sans-serif;
+}
+body{
+	background-color: rgb(255, 255, 255);
+}
+.form-login{
+	margin: 100px auto;
+	background: rgb(225, 225, 225);
+	width: 20%;
+
+	padding: 30px;
+	border-radius: 7px;
+}
+
+.form-login h4{
+	color: steelblue;
+	padding: 5px;
+}
+.form-login button{
+	
+	background: steelblue;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.form-login button:hover{
+color: steelblue;
+	background-color:white  ;
+	border:3px  steelblue;
+	border-style:dashed;
+	animation-direction: alternate-reverse;
+	transition: all 1s;
+}
+
+
+.form-login label{
+	display: block;
+	padding: 3px;
+}
+.form-login input{
+width: 95%;
+	padding: 10px;
+	border: none;
+	border: 1px solid rgba(128, 128, 128, 0.502);
+	border-radius: 5px;
+}
+.form-login select{
+	width: 350px;
+	
+	padding: 8px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+.form-login p{
+	padding: 2px;
+	margin-top: 5px;
+}
+.form-login a{
+	color: steelblue;
+	margin-left: 5px;
+	text-decoration: none;
+}
+.nav {
+	padding: 2px;
+	width: 100%;
+	height: 4vh;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between 3px;
+	text-align: center;
+	background: steelblue;
+	position: fixed;
+}
+ .nav  ul {
+
+text-align:center;
+
+padding: 7px;
+margin-left: 100px;
+}
+.nav ul a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+.nav  ul a:hover {
+text-decoration: none;
+background-color: white;
+padding: 10px;
+border-radius: 5px;
+color: steelblue;
+}
+
+.form-addgrade{
+	margin-left: 430px;
+	margin-top: 130px;
+	background: rgb(193, 193, 193);
+	height: 320px;
+	width: 320px;
+	padding: 25px;
+	border-radius: 7px;
+}
+
+.form-addgrade h4{
+	color: steelblue;
+	padding: 5px;
+}
+.form-addgrade button{
+	margin-left: 80px;
+	margin-top: 30px;
+	background: steelblue;
+	color: white;
+	width: 130px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.form-addgrade label{
+	display: block;
+	padding: 3px;
+}
+.form-addgrade input{
+	width: 300px;
+	height: 20px;
+	padding: 8px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+.form-addgrade select{
+	width: 320px;
+	
+	padding: 8px;
+	border: none;
+	border-bottom: 1px solid gray;
+}
+
+
+.form-addcandidate{
+	margin-left: 430px;
+	margin-top: 30px;
+	background: rgb(219, 219, 219);
+	height: 505px;
+	width: 320px;
+	padding: 25px;
+	border-radius: 7px;
+}
+
+.form-addcandidate h4{
+	color: steelblue;
+	padding: 5px;
+}
+.form-addcandidate button{
+	background: steelblue;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	margin-top: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.form-addcandidate label{
+	display: block;
+	padding: 3px;
+}
+.form-addcandidate input{
+	width: 300px;
+	height: 20px;
+	padding: 8px;
+	border-radius:5px ;
+	border: 1px solid rgba(128, 128, 128, 0.654);
+}
+
+.middle{
+	background-color: aliceblue;
+}
+
+.dash{
+	display: flex;
+}
+.middle p{
+	font-weight: bold;
+	margin-top: 10px;
+}
+.home{
+	padding: 30px ;
+    display: flex;
+	margin: 100px auto;
+	border-radius: 5px;
+
+	width: 50%;
+    justify-content: space-evenly;
+	background-color: rgb(136, 136, 136);
+}
+.candidate button{ 
+	width: 300px;
+	font-size: x-large;
+padding: 40px;
+}
+.grade button{
+	font-size: x-large;
+	width: 300px;
+padding: 40px;
+
+
+}
+
+.grade button:hover{
+	background-color: steelblue;
+	border-radius: 5px;
+	color: white;
+	border: none;
+}
+.candidate button:hover{
+	background-color: steelblue;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+
+.divisions{
+	padding: 30px ;
+    display: flex;
+	margin: 100px auto;
+	border-radius: 5px;
+color: steelblue;
+	width: 50%;
+    justify-content: space-evenly;
+	background-color: rgb(136, 136, 136);
+}
+.mcandidate{
+	width: 300px;
+	font-size: x-large;
+padding: 40px;
+border: none;
+color: steelblue;
+border-radius: 6px;
+}
+.mgrades {
+	width: 300px;
+	font-size: x-large;
+padding: 40px;
+border: none;
+border-radius: 6px;
+}
+.mgrades a{
+	text-decoration: none;
+	color: none;
+
+}
+.mcandidate a{
+	text-decoration: none;
+	color:none:
+}
+
+.mgrades:hover{
+	background-color: steelblue;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+.mcandidate:hover{
+	background-color: steelblue;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+
+
+.mgrades a:hover{
+	background-color: steelblue;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+.mcandidate a:hover{
+	background-color: steelblue;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+
+
+
+.up{
+	background-color: rgba(70, 131, 180, 0.651);
+	margin: 40px auto;
+	border-radius: 5px;
+	padding: 10px;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.up button{
+	width: 110px;
+	height: 35px;
+	background: steelblue;
+	color: white;
+	border: none;
+	border-radius: 3px;
+}
+.up button:hover{
+	border:1px dashed steelblue;
+	background-color: azure;
+	color: steelblue;
+
+}
+.up input{
+	width: 220px;
+	padding: 7px;
+	border: none;
+	display:inline-flex;
+}
+.add{
+	margin:  auto;
+	
+
+	width: 90%;
+	padding: 5px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.add button{
+	background: steelblue;
+	width: 170px;
+	height: 37px;
+	border: none;
+	border-radius: 3px;
+}
+.add button:hover{
+	border:1px dashed steelblue;
+	background-color: azure;
+	color: steelblue;
+	
+}
+.add button a{
+	text-decoration: none;
+	color: white;
+}
+.table{
+	padding: 5px;
+	margin-top: 7px;
+	width: 90%;
+	margin: 50px auto;
+	border-radius: 30px 30px  ;
+	overflow: hidden;
+	border-collapse: collapse;
+}
+table{
+	width: 100%;
+	border-bottom: 4px solid steelblue;
+	border-radius: 2px;
+	
+}
+th,td{
+	text-align: left;
+ 
+
+}
+
+
+td{
+	padding: 5px;
+
+}
+tr:nth-of-type(even){
+	background: rgba(192, 192, 192, 0.386);
+	overflow: hidden;
+}
+
+td:nth-of-type(even){
+	background: rgba(192, 192, 192, 0.386);
+	overflow: hidden;
+}
+tr:hover{
+	background: silver;
+}
+th{
+	
+	background-color: steelblue;
+	color: white;
+	height: 50px;
+	border:none;
+	border-bottom:1px solid white;
+}
+.table button{
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+}
+.edit{
+	background: steelblue;
+	color: white;
+}
+.delete{
+	background: red;
+	color: white;
+}
+.edit:hover ,.delete:hover{
+	background-color: azure;
+	border: 1px dashed steelblue;
+	color: steelblue;
+}
+
+.delete:hover{
+	background-color: azure;
+	border: 1px dashed red;
+	color: red;
+}
+.print{
+background: steelblue;
+color: white;
+justify-content: center;
+margin-top: 20px;
+cursor: pointer;
+}
+.print:hover{
+	border:1px dashed steelblue;
+	background-color: azure;
+	color: steelblue;
+}
+@media print{
+	.print{
+		display: none !important;
+	}
+	.onprint{
+		display: none !important;
+	}
+}
